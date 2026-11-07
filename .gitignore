@@ -1,0 +1,20 @@
+# залежності та збірка
+node_modules/
+dist/
+build/
+
+# журнали
+*.log
+npm-debug.log*
+
+# секрети та локальні налаштування
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# системні файли
+.DS_Store

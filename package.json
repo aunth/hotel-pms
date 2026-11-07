@@ -1,0 +1,14 @@
+{
+  "name": "hotel-pms",
+  "version": "0.1.0",
+  "description": "Система управління готельним комплексом (навчальний проєкт)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/",
+    "check": "node scripts/check-structure.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
