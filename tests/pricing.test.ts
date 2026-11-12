@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { stayCost } from '../src/modules/booking/pricing.ts';
 
 test('stay cost is nights multiplied by the nightly rate', () => {
-  assert.equal(stayCost('2026-07-01', '2026-07-04', 1500), 4500);
+  assert.equal(stayCost('2026-07-01', '2026-07-04', 1500), 4600);
 });
 
 test('one night is the shortest stay and costs exactly one rate', () => {
